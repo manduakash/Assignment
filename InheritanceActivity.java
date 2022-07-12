@@ -40,12 +40,8 @@ class Manager extends Employee { // child class of employee class
 	//using super class to overloading the parent constructor
 	public Manager(long id, String name, String address, long phone){ // constructor of derived class
 		
-		//overloading super constructor
+		//overloading default super constructor
 		super(id, name, address, phone);
-		super.employeeId = id;
-		super.employeeName = name;
-		super.employeeAddress = address;
-		super.employeePhone = phone;
 	}
 	
 	// Adding default transport allowance method  
@@ -62,16 +58,10 @@ class Trainee extends Employee { // child class of employee class
 	//using super class to overloading the parent constructor
 	public Trainee(long id, String name, String address, long phone){ // constructor of derived class
 		
-		//overloading default super constructor
+		//overloading super constructor
 		super(id, name, address, phone);
-		super.employeeId = id;
-		super.employeeName = name;
-		super.employeeAddress = address;
-		super.employeePhone = phone;
 	}
 }
-
-
 
 public class InheritanceActivity {
 
@@ -91,5 +81,4 @@ public class InheritanceActivity {
 		peter.calculateTransportAllowance();
 		jack.calculateTransportAllowance();
 	}
-
 }
