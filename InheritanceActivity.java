@@ -40,7 +40,7 @@ class Manager extends Employee { // child class of employee class
 	//using super class to overloading the parent constructor
 	public Manager(long id, String name, String address, long phone){ // constructor of derived class
 		
-		//overloading default super constructor
+		//overloading super constructor
 		super(id, name, address, phone);
 		super.employeeId = id;
 		super.employeeName = name;
