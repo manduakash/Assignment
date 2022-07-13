@@ -16,7 +16,7 @@ class KidUser implements LibraryUser{	// creating a class implementing Library i
 	int age;
 	String bookType;
 	
-	public void registerAccount(){		// declearing the method
+	public void registerAccount(){		// defining the method
 		if(age<12) {
 			System.out.println("You have successfully registered under a Kids Account...");
 		}
@@ -25,7 +25,7 @@ class KidUser implements LibraryUser{	// creating a class implementing Library i
 		}
 	}
 	
-	public void requestBook(){		// declearing the method
+	public void requestBook(){		// defining the method
 		if(bookType == "Kids"){
 			System.out.println("Book Issued successfully, please return the book within 10 days...\n \n");
 		}
@@ -41,7 +41,7 @@ class AdultUser implements LibraryUser{		// creating a class implementing Librar
 	int age;
 	String bookType;
 	
-	public void registerAccount(){		// declearing the method
+	public void registerAccount(){		// defining the method
 		if(age>12) {
 			System.out.println("You have successfully registered under an Adult Account...");
 		}else {
@@ -49,7 +49,7 @@ class AdultUser implements LibraryUser{		// creating a class implementing Librar
 		}
 	}
 	
-	public void requestBook(){		// declearing the method
+	public void requestBook(){		// defining the method
 		if(bookType=="Fiction") {
 			System.out.println("Book Issued successfully, please return the book within 7 days...\n \n");
 		}else {
