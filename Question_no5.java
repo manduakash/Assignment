@@ -13,7 +13,7 @@ class Employee{
 	
 }
 
-public class StaticEmployee {
+public class Question_no5 {
 	
 	//main method
 	public static void main(String[] args) {
