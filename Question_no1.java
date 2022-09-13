@@ -1,4 +1,5 @@
 //@author Akash Singh
+//create a object with new keyword
 public class Question_no1 {	//class
 
 	public static void main(String[] args){	//main method
