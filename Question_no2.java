@@ -1,6 +1,7 @@
 /*
  * @author Akash Singh 
 */
+//create a public class that no one can create its instance from another class
 
 public class Question_no2 {
 	private Question_no2(){	//making private constructor
