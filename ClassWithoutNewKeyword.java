@@ -1,6 +1,6 @@
 //@author Akash Singh
 //create a object with new keyword
-public class Question_no1 {	//class
+public class ClassWithoutNewKeyword {	//class
 
 	public static void main(String[] args){	//main method
 		try{//creating objects without new keyword
