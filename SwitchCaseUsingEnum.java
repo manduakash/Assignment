@@ -5,7 +5,7 @@
 
 // Q.6 - Write a java class to accept five string name.
 
-public class Question_no6 {   // class
+public class SwitchCaseUsingEnum {   // class
 	enum names{
 		arnab, sayan, sankha, akash, owashim
 	}
